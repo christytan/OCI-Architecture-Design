@@ -8,12 +8,18 @@ This repository contains a network design for hub and spoke, including architect
 2. Applied use case
 3. Terraform Script
 
-## Architecture
-Reference Architecture for Hub and Spoke
-![Hub and Spoke design reference architecture](./images/hub-spoke-oci.svg)
+## Reference Architecture
 
-## URLs
-* Nothing at this time
+![Hub and Spoke design reference architecture](../images/hub-spoke-oci.svg)
+
+## Applied Use Cases
+The key of Hub and Spoke design choice is to segment the network access
+* Separate Prod/Non-Prod environment
+* Supporting customers on differnent workloads
+* Segment environment to meet compliance needs
+
+## Terraform Implementation
+
 
 ## Contributing
 <!-- If your project has specific contribution requirements, update the
