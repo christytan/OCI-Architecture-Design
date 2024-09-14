@@ -19,7 +19,8 @@ The key of Hub and Spoke design choice is to segment the network access
 * Segment environment to meet compliance needs
 
 ## Terraform Implementation
-
+* VCNs
+    - in this design, I would use 
 
 ## Contributing
 <!-- If your project has specific contribution requirements, update the
